@@ -1,0 +1,74 @@
+div {
+  font-size: 17px;
+  font-family: var(--font-family-system-prism);
+}
+
+p {
+  margin: 0;
+}
+
+.home {
+  font-weight: 500;
+}
+
+.sidebar {
+  width: 244px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid rgb(219, 219, 219);
+  background-color: rgb(255, 255, 255);
+}
+
+.sidebar-content {
+  padding-left: 14px;
+  padding-top: 40px;
+}
+
+.sidebar-content .instagram-logo {
+  padding-left: 10px;
+  padding-bottom: 29px;
+}
+
+.sidebar-content .instagram-logo img {
+  cursor: pointer;
+}
+
+.sidebar-content .shadow {
+  width: 205px;
+  padding-left: 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.sidebar-content .shadow:hover {
+  background-color: rgba(128, 128, 128, 0.109);
+}
+
+.sidebar-content div div {
+  display: flex;
+  align-items: center;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+.sidebar-content div div .profile {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.sidebar-content div div p {
+  padding-left: 15px;
+}
+
+.more-section {
+  padding-top: 11px;
+}
+
+.sidebar-content div:hover div img {
+  transform: scale(1.05);
+}

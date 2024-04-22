@@ -1,0 +1,144 @@
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.third-column {
+  padding-left: 75px;
+}
+.switch-account {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 0px;
+  width: 320px;
+  height: 44px;
+  padding-bottom: 25px;
+}
+
+.switch-button .button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 149, 246);
+  font-weight: 500;
+  font-size: 13px;
+  font-family: var(--font-family-system-prism);
+  cursor: pointer;
+}
+
+.switch-button .button:hover {
+  color: rgba(0, 55, 177, 1);
+}
+
+.switch-account .profile,
+.switch-account .profile div {
+  width: 44px;
+}
+
+.switch-account a {
+  width: 44px;
+  margin-right: 12px;
+  border-radius: 25px;
+}
+
+.switch-account img {
+  height: 44px;
+  width: 44px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.switch-account p {
+  font-size: 14.5px;
+}
+
+.switch-account .profile-info a .profile-username {
+  font-weight: 500;
+  display: inline-block;
+}
+
+.switch-account .profile-info .profile-name {
+  color: gray;
+  font-size: 14.4px;
+}
+
+.switch-account .profile-info {
+  flex: 1;
+  max-width: 184px;
+  padding-bottom: 6px;
+}
+
+.suggestion-message {
+  display: flex;
+}
+
+.suggestion-message span {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  flex: 1;
+  max-width: 240px;
+}
+
+.suggestion-message button {
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: var(--font-family-system-prism);
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.suggested-profile .profile {
+  width: 55px;
+}
+
+.suggested-profile img {
+  height: 44px;
+  width: 44px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.suggested-profile {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 5px;
+}
+
+.suggested-profile .profile-info {
+  flex: 1;
+  max-width: 184px;
+}
+
+.suggested-profile .profile-info .profile-message {
+  font-size: 13px;
+  color: gray;
+}
+
+.suggested-profile p {
+  font-size: 14.5px;
+}
+
+.suggested-profile .profile-info .profile-username {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.suggested-profile .profile-info .profile-name {
+  color: gray;
+  font-size: 14.5px;
+}
+
+footer {
+  padding-top: 40px;
+  color: rgba(128, 128, 128, 0.515);
+  font-size: 12px;
+}
+
+footer p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

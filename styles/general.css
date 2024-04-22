@@ -1,0 +1,10 @@
+body {
+  font-family: Roboto, Arial;
+  height: 1500px;
+  padding-left: 273px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

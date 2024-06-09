@@ -72,3 +72,25 @@ p {
 .sidebar-content div:hover div img {
   transform: scale(1.05);
 }
+
+@media (max-width: 700px) {
+  .sidebar-content div p {
+    display: none;
+  }
+
+  .sidebar-content .instagram-logo {
+    display: none;
+  }
+
+  .sidebar {
+    width: 70px;
+  }
+
+  .sidebar-content .shadow {
+    width: 100%;
+  }
+
+  body {
+    padding-left: 70px;
+  }
+}
